@@ -21,7 +21,7 @@ API para consumir e disponibilizar dados dos municípios brasileiros fornecidos 
 
 O IBGE Data API é uma interface desenvolvida com o framework [FastAPI](https://fastapi.tiangolo.com/) que permite obter os dados de todos os municípios brasileiros fornecidos pela [API de Localidades do IBGE](https://servicodados.ibge.gov.br/api/docs/localidades#api-Municipios-municipiosGet).
 
-Assista este vídeo de exemplo no YouTube em [```https://www.youtube.com/watch?v=AMdGk-LIUu8```](https://www.youtube.com/watch?v=AMdGk-LIUu8).
+Assista este vídeo de exemplo no YouTube em [```https://www.youtube.com/watch?v=fNXMldLJKFY```](https://www.youtube.com/watch?v=fNXMldLJKFY).
 
 ![ibge-data-api](https://github.com/lucapwn/ibge-data-api/assets/58787069/f1b2c95f-3242-4a21-9c48-634b8a391fd8)
 
