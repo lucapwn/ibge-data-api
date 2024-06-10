@@ -55,6 +55,7 @@ Consultando por cada um dos atributos:
 
 ~~~console
 foo@bar:~$ curl -X 'GET' 'http://localhost:8000/api/v1/municipality/3304557' -H 'accept: application/json'
+foo@bar:~$ curl -X 'GET' 'http://localhost:8000/api/v1/municipalities' -H 'accept: application/json'
 foo@bar:~$ curl -X 'GET' 'http://localhost:8000/api/v1/municipalities?name=Brasília' -H 'accept: application/json'
 foo@bar:~$ curl -X 'GET' 'http://localhost:8000/api/v1/municipalities?region=Nordeste' -H 'accept: application/json'
 foo@bar:~$ curl -X 'GET' 'http://localhost:8000/api/v1/municipalities?mesoregion=Campinas' -H 'accept: application/json'
