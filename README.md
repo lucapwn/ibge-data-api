@@ -31,10 +31,10 @@ Os usuários podem obter todas as informações sobre os municípios brasileiros
 
 ### Endpoints da API
 
-Método | Endpoint                | Descrição
--------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------
-GET    | [```/api/v1/municipalities```](http://localhost:8000/api/v1/municipalities)       | Obtém as informações de todos os municípios e permite uso de filtros.
-GET    | [```/api/v1/municipality/{id}```](http://localhost:8000/api/v1/municipality/{id}) | Obtém as informações de um município específico pelo ID.
+Método | Endpoint                        | Descrição
+-------|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------
+GET    | ```/api/v1/municipalities```    | Obtém as informações de todos os municípios e permite uso de filtros.
+GET    | ```/api/v1/municipality/{id}``` | Obtém as informações de um município específico pelo ID.
 
 ### Filtros
 
@@ -93,7 +93,7 @@ foo@bar:~$ fastapi run
 Com o Docker instalado, se necessitar realizar a conteinerização da aplicação, construa a imagem do contêiner:
 
 ~~~console
-foo@bar:~$ docker build -t ibge-data-api
+foo@bar:~$ docker build -t ibge-data-api .
 ~~~
 
 Por fim, execute o contêiner da aplicação:
